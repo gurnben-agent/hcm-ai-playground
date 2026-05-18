@@ -62,4 +62,4 @@ If you would like to add a workload to the AI Playground environment defined in 
 
 For example, if you wanted to add a model to the current Inference Service, you would simply add its definition to the payload in the `inference-service` directory.  
 
-If you instead wanted to add a net-new service to validate models for content or correctness, you would add a new directory with its own Kustomize directory that defined the service, then make a cooresponding GitOps Application in `gitops-applications` for that application and apply the GitOps Application to the target cluster.  
+If you instead wanted to add a net-new service to validate models for content or correctness, you would add a new directory with its own Kustomize directory that defined the service, then make a cooresponding GitOps Application in `gitops-applications` for that application and apply the GitOps Application to the target cluster.  # CI Status Checks Test
